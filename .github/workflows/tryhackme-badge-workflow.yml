@@ -12,7 +12,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
     - name: Fetch TryHackMe Badge
-      uses: pietervoorschot/tryhackme-badge-action-workflow@v1.0
+      uses: pietervoorschot/.github/workflows/tryhackme-badge-action-workflow@v1.0
       with:
         image_path: './assets/tryhackme-badge.png'
         username: 'PeanutButterGuy'
