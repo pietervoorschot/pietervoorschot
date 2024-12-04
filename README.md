@@ -1,3 +1,3 @@
 ### Hi there 👋
 
-![tryhackme stats](https://raw.githubusercontent.com/PeanutButterGuy/master/assets/thm_propic.png)
+![TryHackMe Badge](https://github.com/PeanutButterGuy/PeanutButterGuy/blob/master/assets/tryhackme-badge.png)
