@@ -5,3 +5,4 @@
 
 # 👨‍💻 TryHackMe badge
 ![ScreenShot](https://raw.githubusercontent.com/pietervoorschot/pietervoorschot/refs/heads/main/assets/tryhackme-badge.png)
+![tryhackme stats](https://raw.githubusercontent.com/pietervoorschot/pietervoorschot/master/assets/tryhackme-badge.png)
