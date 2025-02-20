@@ -25,3 +25,9 @@ jobs:
         username: 'PeanutButterGuy'
         user_id: '3828830'
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Commit changes
+      run: |
+        git add ./assets/tryhackme-badge.png
+        git commit --allow-empty -m "Updated THM profile badge"
+        git push
