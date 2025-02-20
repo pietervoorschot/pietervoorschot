@@ -8,8 +8,8 @@ on:
 jobs:
   update-badge:
     runs-on: ubuntu-22.04
-
     steps:
+    
     - name: Checkout repository
       uses: actions/checkout@v2
 
@@ -25,9 +25,3 @@ jobs:
         username: 'PeanutButterGuy'
         user_id: '3828830'
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Commit changes
-      run: |
-        git add ./assets/tryhackme-badge.png
-        git commit --allow-empty -m "Updated THM profile badge"
-        git push
